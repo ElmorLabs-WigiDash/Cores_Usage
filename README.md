@@ -1,4 +1,4 @@
-# ClockWidget for WigiDash
+# CoreUsageMonitor for WigiDash
 
 ## Pre-requisites
 
