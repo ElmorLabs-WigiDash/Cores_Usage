@@ -105,6 +105,12 @@
     <Content Include="preview_5x4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="taskmgr.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="taskmgr32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="thumb.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
