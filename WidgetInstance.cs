@@ -68,13 +68,13 @@ namespace Task_MgrWidget
         [DllImport("taskmgr.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern void deinitialize_libs();
 
-        [DllImport("taskmgr.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("taskmgr32.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern void initialize_libs32();
-        [DllImport("taskmgr.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("taskmgr32.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern unsafe void get_my_processor32(ref My_Processor_Core p);
-        [DllImport("taskmgr.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("taskmgr32.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern unsafe void get_core_usage32(byte* p);
-        [DllImport("taskmgr.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("taskmgr32.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern void deinitialize_libs32();
 
         public int x_pos = 0;
