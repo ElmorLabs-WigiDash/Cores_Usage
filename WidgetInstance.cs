@@ -486,10 +486,15 @@ namespace Task_MgrWidget
         {             
             while (run_task)
             {
+                while (pause_task)
+                {
+                    Thread.Sleep(100);
+                }
                 if (current_page == PAGE_STATE.main_page)
                     Update_core_usage();
                 if (!run_task) return;
                     Thread.Sleep(100);
+                
             }
         }
 
